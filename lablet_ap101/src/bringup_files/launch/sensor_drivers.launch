@@ -1,0 +1,13 @@
+<launch>
+
+<arg name="param_sensor_freq" default="2.5"/>
+
+<!--battery voltage monitor node --> 
+<node pkg="battery_voltage_monitor" name="battery_voltage_monitor" type="battery_voltage_monitor.py" output="screen">
+	<param name="sensor_freq" value="$(arg param_sensor_freq)"/>
+</node>
+
+<!--ultrasound sensor driver node -->
+<node pkg="ultrasound_sensor_driver" name= "ultrasound_sensor_driver" type="ultrasound_sensor_driver.py" output="screen"/>
+
+</launch>

@@ -1,0 +1,7 @@
+<launch>
+<arg name="desired_speed" default="0.5"/>
+
+<node pkg="lablet_week4_session" name="mpersec_to_kmph_client" type="mpersec_to_kmph_client.py" output="screen">
+	<param name="requested_speed" type="double" value="$(arg desired_speed)"/>
+</node>
+</launch>

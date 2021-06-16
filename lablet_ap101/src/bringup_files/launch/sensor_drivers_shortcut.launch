@@ -1,0 +1,5 @@
+<launch>
+<!-- Include launch file for battery voltage monitor. -->
+<include file="$(find battery_voltage_monitor)/launch/battery_voltage_monitor.launch"/>
+<include file="$(find ultrasound_sensor_driver)/launch/ultrasound_sensor_driver.launch"/>
+</launch>
