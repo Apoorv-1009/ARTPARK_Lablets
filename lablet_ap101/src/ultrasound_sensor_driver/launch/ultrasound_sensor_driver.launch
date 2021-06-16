@@ -1,3 +1,0 @@
-<launch>
-<node pkg="ultrasound_sensor_driver" name="ultrasound_sensor_driver" type="ultrasound_sensor_driver.py" output="screen" />
-</launch>

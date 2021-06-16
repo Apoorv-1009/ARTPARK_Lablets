@@ -1,8 +1,0 @@
-<launch>
-
-<arg name="param_sensor_freq" default="2.5"/>
-<!-- The battery voltage monitor node. -->
-<node pkg="battery_voltage_monitor" name="battery_voltage_monitor" type="battery_voltage_monitor.py" output ="screen">
-  <param name="sensor_freq" value="$(arg param_sensor_freq)"/>
-</node>
-</launch>
