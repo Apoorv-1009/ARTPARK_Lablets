@@ -1,0 +1,8 @@
+#Request field
+float32 initial_value
+float32 final_value
+uint8 line_resolution
+---
+#Response field
+float32[] line_points
+ 
