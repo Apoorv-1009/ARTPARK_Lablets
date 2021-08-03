@@ -1,1 +1,2 @@
-Download all the files and run a catkin b on this lad
+### Robot Operating System: File system, Topics and Services course
+Here is the source code run in a docker container
