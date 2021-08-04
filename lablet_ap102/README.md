@@ -4,3 +4,4 @@ https://dingyan89.medium.com/three-methods-of-vehicle-lateral-control-pure-pursu
 https://github.com/naveenmoto/lablet102 </br>
 https://cds.nyu.edu/math-tools/ </br>
 https://github.com/AtsushiSakai </br>
+Course link: https://artpark.talentsprint.com/courses/course-v1:ArtPark+AP102+2021/course/
